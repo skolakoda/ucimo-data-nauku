@@ -1,8 +1,8 @@
-from pandas import DataFrame, Series
+from pandas import DataFrame, read_json
 import numpy as np
 import json
 
-medalje = DataFrame(json.load(open('../podaci/medalje-sochi-2014.json')))
+medalje = read_json('../podaci/medalje-sochi-2014.json')
 
 broj_medalja = medalje[['gold', 'silver', 'bronze']]
 prosek_medalja = broj_medalja.apply(np.mean) # prosek
