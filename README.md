@@ -1,6 +1,6 @@
-# Učimo nauku o podacima
+# Učimo data science
 
-Učimo nauku o podacima (data science)
+Učimo data science (nauku o podacima)
 
 ## Pokretanje
 
