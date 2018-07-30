@@ -1,4 +1,4 @@
-# Učimo data science
+# Učimo data nauku
 
 Učimo nauku o podacima
 
